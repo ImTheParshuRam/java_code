@@ -26,14 +26,22 @@ class calculator {
                 System.out.println(mult);
                 break;
             case 4:
-                int div = a / b;
-                System.out.print("Division of a and b is : ");
-                System.out.println(div);
+                if (b == 0) {
+                    System.out.println("Invalid value of b");
+                } else {
+                    int div = a / b;
+                    System.out.print("Division of a and b is : ");
+                    System.out.println(div);
+                }
                 break;
             case 5:
-                int rem = a % b;
-                System.out.print("Modulo or remainder of a and b is : ");
-                System.out.println(rem);
+                if (b == 0) {
+                    System.out.println("Invalid value of b");
+                } else {
+                    int rem = a % b;
+                    System.out.print("Modulo or remainder of a and b is : ");
+                    System.out.println(rem);
+                }
                 break;
 
             default:
