@@ -48,6 +48,6 @@ class calculator {
                 System.out.println("Please select correct operation!");
                 break;
         }
-
+        sc.close();
     }
 }

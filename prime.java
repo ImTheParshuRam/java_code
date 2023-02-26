@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.function.DoubleToIntFunction;
 
 public class prime {
     public static void main(String[] args) {
@@ -28,6 +27,7 @@ public class prime {
         } else {
             System.out.println("Negative number are not prime");
         }
+        sc.close();
     }
 
 }

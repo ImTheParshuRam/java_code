@@ -12,6 +12,7 @@ public class even {
                 continue;
             }
         }
+        sc.close();
     }
 
 }

@@ -48,6 +48,7 @@ class calender {
                 System.out.println("Please enter a valid month number !");
                 break;
         }
+        sc.close();
     }
 
 }

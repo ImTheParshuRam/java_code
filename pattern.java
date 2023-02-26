@@ -1,7 +1,5 @@
 import java.util.*;
 
-import javax.swing.JSpinner.NumberEditor;
-
 public class pattern {
     public static void solidrect(int row, int col) {
         System.out.println("sold rectangle");
@@ -99,6 +97,8 @@ public class pattern {
         rotate_pyramid(row);
         flyod(row);
         binary(row);
+        sc.close();
+
     }
 
 }
