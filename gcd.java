@@ -6,9 +6,9 @@ public class gcd {
         int a = sc.nextInt();
         int b = sc.nextInt();
         if (a % b == 0) {
-            System.out.println(b);
+            System.out.println("Greatest common divisor is : " + b);
         } else if (b % a == 0) {
-            System.out.println(a);
+            System.out.println("Greatest common divisor is : " + a);
         } else {
             int gcd = 1;
             if (a > b) {
